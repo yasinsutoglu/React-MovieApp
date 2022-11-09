@@ -63,11 +63,11 @@ SOLUTION
 
 - HTML / Semantic elements 
 
-- Material UI
+- Material UI - React Toastify
 
 - REACT / Components , Props , UseState Hook , UseEffect Hook , Router etc.
 
-- Fetch API
+- Fetch API - Axios
 
 - Context API
 
