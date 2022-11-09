@@ -1,7 +1,7 @@
-<h1 align="center">React Recipe App</h1>
+<h1 align="center">React Movie App</h1>
 
 <h3>Overview</h3>
-👨‍💻 In this project I mastered React skills. I used mainly REACT and Styled Component, React Router. You can see visual demo of the website below. The objective is to build out this real-like webpage and make it looking as professional as possible..
+👨‍💻 In this project I mastered React skills. I used mainly REACT and Material UI, Bootstrap, React Router, Context API. You can see visual demo of the website below. The objective is to build out this real-like webpage and make it looking as professional as possible..
 <hr>
 
 ## ✨ Demo
@@ -14,7 +14,7 @@
 
 <hr>
 
-[📍You can see the live site from here!](https://recipeappyasin.vercel.app/)
+[📍You can see the live site from here!]()
 
 <!-- ------------------------------------------------------ -->
 ````
@@ -26,19 +26,19 @@ SOLUTION
 ├── public
 │     └── index.html
 ├── src
-│    ├── assets.js
-│    │     └── images
+│    ├── auth
+│    │     └── firebase.js
 │    ├── components
-│    │     ├── Header --> Header.jsx | Header.style.jsx
-│    │     ├── Card --> Card.jsx | Cards.jsx  | Card.style.jsx
-│    │     └── Navbar --> Navbar.jsx | Navbar.style.jsx
+│    │     ├── MovieCard.scss
+│    │     ├── MovieCard.jsx 
+│    │     └── Navbar.jsx
 │    ├── pages
-│    │     ├── Home--> Home.jsx | Home.style.jsx
-│    │     ├── About --> About.jsx  | About.style.jsx
-│    │     ├── Login --> Login.jsx  | Login.style.jsx
-│    │     ├── Register-->Register.jsx  | Register.style.jsx
-│    │     ├── Details --> Details.jsx  | Details.style.jsx
-│    │     └── Logo.js
+│    │     ├── MovieDetail.jsx
+│    │     ├── Main.jsx
+│    │     ├── Login.jsx
+│    │     ├── Register.jsx
+│    │── Context   
+│    │     └── AuthProvider.jsx
 │    ├── router
 │    │     └── AppRouter.jsx │ PrivateRouter.jsx
 │    ├── App.js
@@ -63,13 +63,15 @@ SOLUTION
 
 - HTML / Semantic elements 
 
-- Styled Components
+- Material UI
 
 - REACT / Components , Props , UseState Hook , UseEffect Hook , Router etc.
 
 - Fetch API
 
-- LocalStorage
+- Context API
+
+- Firebase Authentication 
 
 ### At the end of the project, i will be able to;
 
@@ -86,7 +88,7 @@ SOLUTION
 <hr>
 <h3>How to Use the Project</h3>
 <span>First download a code editor </span>
-<br><span>Second open the files : </span><a href='https://github.com/yasinsutoglu/React-Recipe-App'>My Docs</a>
+<br><span>Second open the files : </span><a href='https://github.com/yasinsutoglu/React-MovieApp'>My Docs</a>
 <br><span>You should open vscode terminal and write "yarn or npm install" to make the project alive </span>
 <br><span>You can use this tutorial : </span><a href='https://www.youtube.com/watch?v=fJEbVCrEMSE'>VS Code tutorial</a>
 
